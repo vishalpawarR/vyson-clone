@@ -1,8 +1,48 @@
-# React + Vite
+# Vyson
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+Our web application leverages these technologies to create a responsive, interactive, and visually appealing user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- **React**: A popular JavaScript library for building user interfaces.
+- **Vite**: A next-generation frontend tooling for faster development experience.
+- **TailwindCSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A production-ready motion library for React.
+
+## Project Setup
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/vishalpawarR/vyson-clone.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd vyson-clone
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173` to view the application.
+
+   Note: Vite uses port 5173 by default. If this port is already in use, Vite will automatically use the next available port.
+
+## Building for Production
+
+To create a production build, run:
